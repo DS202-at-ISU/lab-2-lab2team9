@@ -18,4 +18,9 @@ Canvas (only one submission per team) to signal to the instructors that
 you are done with your submission.
 
 Grant Question 1: There are many variables including: Address,
-Occupancy, Price, YearBuilt, and Bedrooms.
+Occupancy, Price, YearBuilt, and Bedrooms. There are number, character,
+date type of variables in the dataset. The address gives the address of
+the house, the occupancy gives the number of people that can live in the
+house, the price lists the last price the home sold at, the YearBuilt
+gives the year that house was built, and bedrooms lists the number of
+bedrooms in the house.
