@@ -23,11 +23,18 @@ date type of variables in the dataset. The address gives the address of
 the house, the occupancy gives the number of people that can live in the
 house, the price lists the last price the home sold at, the YearBuilt
 gives the year that house was built, and bedrooms lists the number of
-bedrooms in the house. The range of the Sale Price data is between 0 and
-20,500,000.
+bedrooms in the house. We would expect the range of the Sale Price data
+to be between 50,000 to 1,500,000
 
 Grant `Question 2:` The Price and Sale Date variable have a special
 focus for this project since we are looking at the historic residential
 sales of houses in Ames since 2017.
 
-Grant `Question 3:`
+Grant `Question 3:` The range of the sale price variable is between 0
+and 20,500,000. Most of the data seems to fall between 100,000 and
+1,000,000. There are many outliers under 100,000 and over 20,000,000
+which seems like they are impossible to sell for that price in Ames.
+![Histogram of Sale Price](histr.png)
+
+Grant `Question 4` We think that the variable Sale Date could be related
+to the sale price since house prices tend to fluctuate over time.
