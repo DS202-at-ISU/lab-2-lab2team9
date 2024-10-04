@@ -13,9 +13,15 @@ print(range(ames$`Sale Price`))
 # Makes a histogram for the sale price with 100 bins
 hist(ames$`Sale Price`, breaks = 100)
 
+
+# This filters the house data to only show houses overtime between 100,000 and 1,000,000 sale price and prints a scatterplot
 library(ggplot2)
 library(dplyr)
 
-filtered_houses <- ames$`Sale Price` %>% filter(ames$`Sale Price` >= 100000 & ames$`Sale Price` <= 1000000)
+ames$`Sale Price` <- as.numeric(ames$`Sale Price`)
 
-ggplot(filtered_houses, aes(x = ames$`Sale Date`, y = ames$`Sale Price`)) + geom_point()
+filtered_houses <- filter(ames, !is.na(ames$`Sale Price`) & !is.na(ames$YearBuilt) & `Sale Price` >= 100000 & `Sale Price` <= 1000000)
+
+View(filtered_houses)
+
+ggplot(filtered_houses, aes(x = `YearBuilt`, y = `Sale Price`)) + geom_point()

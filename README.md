@@ -26,7 +26,7 @@ gives the year that house was built, and bedrooms lists the number of
 bedrooms in the house. We would expect the range of the Sale Price data
 to be between 50,000 to 1,500,000
 
-Grant `Question 2:` The Price and Sale Date variable have a special
+Grant `Question 2:` The Price and Year Built variable have a special
 focus for this project since we are looking at the historic residential
 sales of houses in Ames since 2017.
 
@@ -36,5 +36,10 @@ and 20,500,000. Most of the data seems to fall between 100,000 and
 which seems like they are impossible to sell for that price in Ames.
 ![Histogram of Sale Price](histr.png)
 
-Grant `Question 4` We think that the variable Sale Date could be related
-to the sale price since house prices tend to fluctuate over time.
+Grant `Question 4` We think that the variable Year Built could be
+related to the sale price since newer houses tend to be more expensive.
+Using the scatterplot we can see a pattern of more houses being higher
+priced the when their Year Built is closer to the current date. However
+there were some oddities like NA values and false data in the dataset
+that we had to clean before plotting it. ![Scatterplot of Sale Price and
+Year Built](scrtplt2.png)

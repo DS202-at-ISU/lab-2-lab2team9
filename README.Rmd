@@ -23,7 +23,7 @@ Grant
 
 
 Grant
-`Question 2: ` The Price and Sale Date variable have a special focus for this project since we are looking at the historic residential sales of houses in Ames since 2017.
+`Question 2: ` The Price and Year Built variable have a special focus for this project since we are looking at the historic residential sales of houses in Ames since 2017.
 
 
 Grant
@@ -32,6 +32,6 @@ Grant
 
 
 Grant 
-`Question 4` We think that the variable Sale Date could be related to the sale price since house prices tend to fluctuate over time. 
-
+`Question 4` We think that the variable Year Built could be related to the sale price since newer houses tend to be more expensive. Using the scatterplot we can see a pattern of more houses being higher priced the when their Year Built is closer to the current date. However there were some oddities like NA values and false data in the dataset that we had to clean before plotting it. 
+![Scatterplot of Sale Price and Year Built](scrtplt2.png)
 
