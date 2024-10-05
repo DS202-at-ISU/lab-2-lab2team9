@@ -47,6 +47,11 @@ Grant `Question 2:` The Price and Year Built variable have a special
 focus for this project since we are looking at the historic residential
 sales of houses in Ames since 2017.
 
+Hudson `Question 2:` The `Sale Price` and `Sale Date` (limited by
+`Bedrooms` because behavior could be different between 1 bedroom, and 4
+bedroom homes) could have extra significance to learn more about how
+`Sale Price` has been effected by time.
+
 Grant `Question 3:` The range of the sale price variable is between 0
 and 20,500,000. Most of the data seems to fall between 100,000 and
 1,000,000. There are many outliers under 100,000 and over 20,000,000

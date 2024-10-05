@@ -16,6 +16,11 @@ print.simple.list(style_levels)
 occ_levels<- levels(ames$Occupancy)
 print.simple.list(occ_levels)
 
+# Viewing Neighborhood alone
+options(max.print = 42)
+Neighbor_levels<- levels(ames$Neighborhood)
+print.simple.list(Neighbor_levels)
+
 # Prints the range for the Sale price
 print(range(ames$`Sale Price`))
 
