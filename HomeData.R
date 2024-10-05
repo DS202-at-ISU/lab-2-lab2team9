@@ -46,3 +46,9 @@ filtered_houses <- filter(ames, !is.na(ames$`Sale Price`) & !is.na(ames$YearBuil
 View(filtered_houses)
 
 ggplot(filtered_houses, aes(x = `YearBuilt`, y = `Sale Price`)) + geom_point()
+
+
+
+# Sale price per year using the same filtering for outliers that Grant used
+
+ggplot(filtered_houses, aes(x = `Sale Date`, y = `Sale Price`)) + geom_point()

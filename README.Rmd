@@ -84,3 +84,7 @@ priced the when their Year Built is closer to the current date. However
 there were some oddities like NA values and false data in the dataset
 that we had to clean before plotting it. ![Scatterplot of Sale Price and
 Year Built](scrtplt2.png)
+
+Hudson `Question 4:` This scatterplot displays all the different homes within our filter, and shows us: while the density of points appears roughly the same withing the 100,000 to 600,000 dollar sales range throughout the years, we see more dots shift above the 600,000 dollar mark.  
+
+![](images/HomesBoughtVsPrice.png)
