@@ -27,6 +27,13 @@ print(range(ames$`Sale Price`))
 # Makes a histogram for the sale price with 100 bins
 hist(ames$`Sale Price`, breaks = 100)
 
+# Histogram for sales broken into 6 parts (2017 and 2018 were right next to eachother so I raised bins to separate)
+year <- format(ames$`Sale Date`, "%Y")
+print(year[1:2])
+year_num <- as.numeric(year)
+print(year_num)
+hist(year_num, breaks = 18)
+
 
 # This filters the house data to only show houses overtime between 100,000 and 1,000,000 sale price and prints a scatterplot
 library(ggplot2)

@@ -3,6 +3,11 @@
 
 # Lab report \#1
 
+TL;DR
+
+We all gave pretty similar answers as far as the question 1, variables,
+but we have a couple of different paths after that, which we explored.
+
 Follow the instructions posted at
 <https://ds202-at-isu.github.io/labs.html> for the lab assignment. The
 work is meant to be finished during the lab time, but you have time
@@ -57,6 +62,11 @@ and 20,500,000. Most of the data seems to fall between 100,000 and
 1,000,000. There are many outliers under 100,000 and over 20,000,000
 which seems like they are impossible to sell for that price in Ames.
 ![Histogram of Sale Price](histr.png)
+
+Hudson `Question 3:` This Histogram displays the differing number of
+homes purchase each year of our data.
+
+![](images/HomesBoughtPerYear.png)
 
 Grant `Question 4` We think that the variable Year Built could be
 related to the sale price since newer houses tend to be more expensive.
