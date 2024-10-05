@@ -7,6 +7,15 @@ class(ames)
 head(ames)
 View(ames)
 
+# Viewing Styles alone
+options(max.print = 12)
+style_levels<- levels(ames$Style)
+print.simple.list(style_levels)
+
+# Viewing Occupancy alone
+occ_levels<- levels(ames$Occupancy)
+print.simple.list(occ_levels)
+
 # Prints the range for the Sale price
 print(range(ames$`Sale Price`))
 

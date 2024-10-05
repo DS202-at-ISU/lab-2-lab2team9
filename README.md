@@ -26,6 +26,23 @@ gives the year that house was built, and bedrooms lists the number of
 bedrooms in the house. We would expect the range of the Sale Price data
 to be between 50,000 to 1,500,000
 
+Hudson `Question 1:` The variables included, which can be viewed using
+my personal favorite data exploration function, `head()` are as follows:
+char string `Parcel ID` expected to be a unique 10 number ID, char
+string `Address` indicator of geographic location, Factor `Style` with
+12 possibilities, Factor `Occupancy` with 5 possibilities, Date
+`Sale Date` date sold, num `Sale Price` price the house sold for on
+`Sale Date`, char string`Multi Sale` whether the property was a
+“multi-home” (An apartment building vs a single condo), num `YearBuilt`
+year built, num `Acres` number of acres for the land, num
+`TotalLivingArea (sf)` square feet in the home, num `Bedrooms` integer
+number of bedrooms, num `FinishedBsmtArea (sf)` square feet of finished
+basement, num `LotArea(sf)` number of square feet for the lot, char
+string `AC` yes or no for if it has air conditioning, char string
+`FirePlace` yes or no for if it has a fireplace, and Factor
+`Neighborhood` with 42 options for which neighborhood, which is either
+“none” or 1 of 41 neighborhoods in Ames.
+
 Grant `Question 2:` The Price and Year Built variable have a special
 focus for this project since we are looking at the historic residential
 sales of houses in Ames since 2017.
