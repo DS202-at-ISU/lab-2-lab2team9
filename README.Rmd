@@ -58,6 +58,11 @@ string `AC` yes or no for if it has air conditioning, char string
 `Neighborhood` with 42 options for which neighborhood, which is either
 "none" or 1 of 41 neighborhoods in Ames.
 
+Huy `Question 1:` There are many variables such as Address, Style, Occupancy, Sale Price, Sale Date, Multi Sale, YearBuilt, Acres and Bedrooms...
+- Parcel ID is character with a unique 10 number ID while AC and Fireplace are character with a YES or NO value. Multi Sale is character of whether the property was multihome. Address is a character variable.
+- Numeric are YearBuilt, Acres (Area of the land), TotalLivingArea (area in square feet), FinishedBsmtArea (area in square feet),  LotArea (number ID of the parking lot), Bedrooms (integer number of bedrooms)
+- Sale Date is date. Style, Occupancy, and Neighborhood are factors with 12, 5, and 42 possibilities, respectively.
+
 Grant `Question 2:` The Price and Year Built variable have a special
 focus for this project since we are looking at the historic residential
 sales of houses in Ames since 2017.
@@ -66,6 +71,8 @@ Hudson `Question 2:` The `Sale Price` and `Sale Date` (limited by
 `Bedrooms` because behavior could be different between 1 bedroom, and 4
 bedroom homes) could have extra significance to learn more about how
 `Sale Price` has been effected by time.
+
+Huy `Question 2:` The `Sale Price ` and `Bedroom` may have a positive relationship.
 
 Grant `Question 3:` The range of the sale price variable is between 0
 and 20,500,000. Most of the data seems to fall between 100,000 and
@@ -76,6 +83,10 @@ which seems like they are impossible to sell for that price in Ames.
 Hudson `Question 3:` This Histogram displays the differing number of homes purchase each year of our data. 
 
 ![](images/HomesBoughtPerYear.png)
+
+
+Huy `Question 3:` The histogram displays the range of the sale price variable and its frequency. Following Grant's analysis, I omitted the data point below 100000 and over 1000000 for a more appropriate graph.
+![](Huy_image/Q2.png)
 
 Grant `Question 4` We think that the variable Year Built could be
 related to the sale price since newer houses tend to be more expensive.
@@ -88,3 +99,5 @@ Year Built](scrtplt2.png)
 Hudson `Question 4:` This scatterplot displays all the different homes within our filter, and shows us: while the density of points appears roughly the same withing the 100,000 to 600,000 dollar sales range throughout the years, we see more dots shift above the 600,000 dollar mark.  
 
 ![](images/HomesBoughtVsPrice.png)
+Huy `Question 4:`This scatterplot displays all the different homes' sale price vs number of bedrooms (ranging from 0 to 10 in integers): It shows that the density of points appears high around 0 to 5 bedrooms. Moreover, there is a general increase in the sale price and number of sales of houses with number of bedrooms from 0 to 5.
+![](Huy_image/Q4.png)

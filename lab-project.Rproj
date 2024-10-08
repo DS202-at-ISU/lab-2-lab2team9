@@ -17,3 +17,5 @@ StripTrailingWhitespace: Yes
 
 BuildType: Makefile
 MakefilePath: _source
+
+ProjectName: DS2020_Lab2
